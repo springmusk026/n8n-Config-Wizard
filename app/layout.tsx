@@ -6,10 +6,16 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://n8n-config-wizard.vercel.app"
+
 export const metadata: Metadata = {
-  title: "n8n Config Wizard | Generate Docker Compose, .env & Environment Variables",
+  metadataBase: new URL(baseUrl),
+  title: {
+    default: "n8n Config Wizard | Generate Docker Compose, .env & Kubernetes Configs",
+    template: "%s | n8n Config Wizard",
+  },
   description:
-    "Free n8n configuration generator. Create Docker Compose files, .env configurations, and deployment commands for self-hosted n8n instances. Supports PostgreSQL, Redis queue mode, S3 storage, and enterprise setups.",
+    "Free n8n configuration generator. Create Docker Compose files, .env configurations, Kubernetes manifests, and deployment commands for self-hosted n8n instances. Supports PostgreSQL, Redis queue mode, S3 storage, and enterprise setups.",
   keywords: [
     "n8n",
     "n8n configuration",
@@ -21,9 +27,15 @@ export const metadata: Metadata = {
     "n8n deployment",
     "n8n production",
     "n8n enterprise",
+    "n8n kubernetes",
+    "n8n docker",
+    "n8n redis",
+    "n8n postgresql",
+    "automation tool",
+    "config generator",
   ],
-  authors: [{ name: "n8n Config Wizard" }],
-  creator: "n8n Config Wizard",
+  authors: [{ name: "Basanta Sapkota", url: "https://github.com/springmusk026" }],
+  creator: "Basanta Sapkota",
   publisher: "n8n Config Wizard",
   robots: {
     index: true,
@@ -39,6 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+    url: baseUrl,
     siteName: "n8n Config Wizard",
     title: "n8n Config Wizard | Generate Docker Compose & Environment Variables",
     description:
@@ -49,11 +62,17 @@ export const metadata: Metadata = {
     title: "n8n Config Wizard | Configuration Generator",
     description:
       "Generate Docker Compose files, .env configurations, and deployment commands for self-hosted n8n workflow automation.",
+    creator: "@springmusk026",
   },
   alternates: {
     canonical: "/",
   },
   category: "Technology",
+  verification: {
+    // Add your verification codes here when you have them
+    // google: "your-google-verification-code",
+    // yandex: "your-yandex-verification-code",
+  },
 }
 
 export const viewport: Viewport = {
