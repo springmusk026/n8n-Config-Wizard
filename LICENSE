@@ -1,0 +1,48 @@
+MIT License with Attribution Requirement
+
+Copyright (c) 2025 Basanta Sapkota (https://github.com/springmusk026)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. ATTRIBUTION REQUIREMENT
+   Any use, modification, or distribution of this Software must include:
+   
+   a) A visible credit to the original author "Basanta Sapkota" in any user
+      interface, documentation, or about section of derivative works.
+   
+   b) A link to the original repository: https://github.com/springmusk026/n8n-config-wizard
+   
+   c) A clear statement that the work is derived from or based on this project.
+   
+   d) The original copyright notice and this permission notice shall be included
+      in all copies or substantial portions of the Software.
+
+2. BRANDING
+   The original project name, author attribution, and links to the original
+   repository may not be removed from any fork, derivative work, or redistribution.
+
+3. NOTICE OF MODIFICATION
+   If you modify the Software, you must include a prominent notice stating that
+   you have changed the Software and the date of any changes.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Attribution Example:
+
+When using this software, include the following attribution:
+
+"Based on n8n Configuration Wizard by Basanta Sapkota
+ https://github.com/springmusk026/n8n-config-wizard"
