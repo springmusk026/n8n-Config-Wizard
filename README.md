@@ -2,6 +2,17 @@
 
 A configuration generator for self-hosted [n8n](https://n8n.io) deployments. Generate Docker Compose files, environment variables, and Kubernetes manifests through an interactive web interface.
 
+## Screenshots
+
+<p align="center">
+  <img src="public/ss/ss1.png" alt="Landing Page" width="45%" />
+  <img src="public/ss/ss2.png" alt="Template Selection" width="45%" />
+</p>
+<p align="center">
+  <img src="public/ss/ss3.png" alt="Configuration Form" width="45%" />
+  <img src="public/ss/ss4.png" alt="Output Generation" width="45%" />
+</p>
+
 ## Demo
 
 Visit the live application or run locally to configure your n8n instance.
